@@ -1,0 +1,140 @@
+body {
+    background-color: #333366;
+}
+
+.mobile-show {
+    /*background-color: white;*/
+    width: 600px;
+    padding: 8px 0;
+    margin: 0 auto;
+}
+
+.mobile-setting {
+    background-color: white;
+    width: 600px;
+    padding-top: 20px;
+    margin: 0 auto;
+    font-family: Meiryo;
+}
+
+#icon {
+    background: url(../../images/icons/gear.png);
+    background-size: 30px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+#icon:hover {
+    background: url(../../images/icons/gear_h.png);
+    background-size: 30px;
+    width: 30px;
+}
+
+h1 {
+    display: inline;
+    padding-left: 40px;
+}
+
+#done {
+    float: right;
+    background-color: #00CCFF;
+    color: white;
+    border-radius: 5px;
+    margin-right: 40px;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+.footer {
+    width: 600px;
+    height: 55px;
+    background-color: #333366;
+}
+
+#categories {
+    float: left;
+    background-color: #00CCFF;
+    color: white;
+    border-radius: 5px;
+    margin-left: 100px;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+}
+
+#report {
+    background-color: #00CCFF;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    margin-left: 45px;
+    margin-right: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+#settings {
+    float: right;
+    background-color: #00CCFF;
+    color: white;
+    border-radius: 5px;
+    margin-right: 100px;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+}
+
+#done:hover {
+    opacity: 1;
+}
+
+#seperator {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+p {
+    text-align: center;
+    clear: right;
+    padding-bottom: 0px;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#displayimg {
+    margin-left: -20px;
+}
+
+.drag-handle {
+    padding-right: 20px;
+    float: right;
+}
+
+#line {
+    margin-left: -20px;
+    padding-right: 20px;
+    width: 560px;
+    text-align: center;
+    size: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+ul#handle {
+    margin-left: -40px;
+    margin-top: -1px;
+}
+
+#handle li a {
+    border: 0.5px solid white;
+    color: white;
+    float: left;
+    width: 148px;
+    height: 148px;
+    font-size: 13px;
+}
